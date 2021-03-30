@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://image.freepik.com/vetores-gratis/desenhos-animados-de-fundo-de-madeira_24640-53932.jpg');
+    background-color: #000000;
+    background-size: 1150px;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-shadow: 5px 5px 5px black;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .calculadora {
+    width: 264px;
+    height:360px;
+    background-size: 264px;
+    background-color: grey;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px 0;
+    font-weight:bold;
+  }
+  
+   #resultado {
+    margin: 10px auto;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight:bold;
+    text-align: center;
+    background: whitesmoke;
+    height: 57px;
+    width: 85%;
+    box-shadow: 5px 5px 5px black;
+    
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }

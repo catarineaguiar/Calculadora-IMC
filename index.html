@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 02
+    </title>
+  <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de IMC
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo" alt="">
+        <div class="calculadora">
+          <form name="imcForm" id="imcForm">
+            <p>
+            Altura<br />
+            <input type="text" id="altura" name="altura" />
+            </p>
+
+            <p>Peso <br />
+            <input type="text" id="peso" name="peso" />
+            </p>
+
+            <p>
+            <label>
+            <input type="radio" name="sexo" value="opção" id="sexo_0" />
+            Masculino</label>
+            <br />
+            <label>
+            <input type="radio" name="sexo" value="opção" id="sexo_1" />
+            Feminino</label>
+            </p>
+            <p><input name="Enviar" type="button" value="Calcular"  onclick="calcula_imc()" />
+            </p>
+          </form>
+          <h2 id="resultado"> </h2>
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>  
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
